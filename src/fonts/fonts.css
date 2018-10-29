@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Calligraphr';
+    src: url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470391/plumbus/Calligraphr-Regular.eot');
+    src: url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470391/plumbus/Calligraphr-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470391/plumbus/Calligraphr-Regular.woff') format('woff'),
+         url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470391/plumbus/Calligraphr-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Rick';
+    src: url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470548/plumbus/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8.eot');
+    src: url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470548/plumbus/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8.eot?#iefix') format('embedded-opentype'),
+         url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470548/plumbus/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8.woff') format('woff'),
+         url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470548/plumbus/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Morty';
+    src: url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470691/plumbus/rick_and_morty_by_shittychan-d9h2vl6.eot');
+    src: url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470691/plumbus/rick_and_morty_by_shittychan-d9h2vl6.eot?#iefix') format('embedded-opentype'),
+         url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470691/plumbus/rick_and_morty_by_shittychan-d9h2vl6.woff') format('woff'),
+         url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470691/plumbus/rick_and_morty_by_shittychan-d9h2vl6.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'AdultSwim';
+    src: url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470858/plumbus/_adult_swim_font__by_esteveztheart-dbj9by8.eot');
+    src: url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470858/plumbus/_adult_swim_font__by_esteveztheart-dbj9by8.eot?#iefix') format('embedded-opentype'),
+         url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470858/plumbus/_adult_swim_font__by_esteveztheart-dbj9by8.woff') format('woff'),
+         url('https://res.cloudinary.com/milesaylward/raw/upload/v1537470858/plumbus/_adult_swim_font__by_esteveztheart-dbj9by8.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

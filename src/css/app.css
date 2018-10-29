@@ -1,0 +1,652 @@
+@import "../fonts/fonts.css";
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+body, html {
+    /* height: 100%; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.parallax-large {
+  min-height: 100vh;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-small {
+    position: relative;
+    opacity: 0.65;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-1 {
+    background-image: url("https://res.cloudinary.com/milesaylward/image/upload/v1537471051/plumbus/rick-and-morty-background-16.jpg");
+}
+
+.parallax-2 {
+    background-image: url('https://res.cloudinary.com/milesaylward/image/upload/v1537471730/plumbus/rick-and-morty-5k-artwork-hy-1680x1050.jpg');
+}
+
+.parallax-3 {
+    background-image: url('https://res.cloudinary.com/milesaylward/image/upload/v1537474046/plumbus/633288.png');
+}
+
+.parallax-4 {
+    background-image: url('https://res.cloudinary.com/milesaylward/image/upload/v1537888594/plumbus/thumb-1920-633294.png');
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.hero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-family: Morty;
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  text-align: center;
+}
+
+.hero .network {
+  font-family: AdultSwim;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  font-family: Calligraphr;
+}
+.mobile-nav {
+  display: none;
+}
+
+.nav-links {
+  font-size: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+  transition: color 250ms ease;
+}
+
+.nav-links a:visited {
+  color: black;
+}
+.nav-links a:hover {
+  color: #4CAEC4;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 50px;
+  transform: rotate(-90deg);
+  margin-right: 35px;
+}
+
+#header-img {
+  width: 100%;
+}
+
+.content {
+  min-height: 500px;
+  text-align: center;
+  height: auto;
+  background-color: #eeeeee;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 4rem;
+}
+
+#about .header {
+  width: 100%;
+  height: 40px;
+}
+
+#about .left, #about .right {
+  width: 50%;
+  margin-top: 5rem;
+}
+
+#about .right ul {
+  text-align: left;
+  width: 65%;
+  margin: 20px auto 0 auto;
+  font-family: 'Open Sans';
+}
+
+li .caps, li .bold {
+  text-transform: uppercase;
+}
+
+li .bold {
+  font-weight: bold;
+}
+
+#about h2 {
+  font-size: 45px;
+  margin-bottom: 35px;
+  font-family: Calligraphr;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+#about video {
+  border-radius: 100px;
+  width: 100px;
+}
+
+
+#about #stop {
+opacity: 1;
+}
+
+.video-container {
+  position: relative;
+  margin-top: 40px;
+}
+
+.video-container .expand {
+  position: absolute;
+  width: 30px;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+.video-container .expand svg {
+  transition: transform 300ms ease;
+}
+
+.video-container .expand:hover svg {
+  transform: scale(1.5);
+}
+
+#about .hidden {
+  display: none;
+}
+
+#benefits.content {
+  padding: 5rem 0;
+}
+
+#benefits h2 {
+  font-size: 40px;
+  font-family: Calligraphr;
+}
+
+#benefits .plumbus {
+  float: left;
+	width: 400px;
+	height: 500px;
+  shape-outside: polygon(0 0, 83% 0, 88% 32%, 75% 49%, 79% 100%, 0 100%, 0% 70%, 0% 30%);
+	shape-margin: 55px;
+	background: url(https://res.cloudinary.com/milesaylward/image/upload/v1537820348/plumbus/Screen_Shot_2018-09-24_at_4.15.18_PM.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#benefits .copy  {
+  text-align: left;
+  width: 70%;
+  padding: 5rem 0;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  font-size: 24px;
+}
+#benefits .copy ul {
+  /* padding-bottom: 10rem; */
+}
+#benefits .copy ul li {
+  margin: 10px 0;
+}
+
+#buy {
+  padding: 5rem 0;
+}
+
+#buy form {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buy form #email {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  margin-right: 10px;
+}
+
+#buy form #submit {
+  background-color: black;
+  color: white;
+  height: 30px;
+  border: 1px solid white;
+  padding: 3px 10px 0 10px;
+  font-family: Calligraphr;
+  font-size: 24px;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+
+#buy form #submit:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+#buy h4 {
+  font-size: 24px;
+}
+
+#buy form #submit:focus {
+  outline: none;
+}
+
+#buy img {
+  transform: rotate(0);
+  width: 250px;
+  margin-top: 50px;
+}
+#warn {
+  padding: 1rem;
+}
+
+#warn .header {
+  padding: 1rem 0;
+  border: 2px solid black;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#warn .header h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#warn .header p {
+  font-size: 24px;
+
+}
+
+#warn .header span {
+  margin: 0 5px;
+}
+
+#warn .table-container {
+  width: 60%;
+  max-width: 100vw;
+  margin: 1rem auto;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  font-family: 'Open Sans';
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: left;
+}
+
+td {
+  padding: .5rem .5rem .5rem 1rem;
+  font-size: 18px;
+}
+
+th {
+  text-transform: uppercase;
+  padding: .5rem .5rem .5rem 1rem;
+  font-size: 24px;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+td.problem {
+  font-weight: bold;
+}
+
+tr:nth-child(even) .fix {
+    background-color: #bbb;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .upper, footer .lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+footer .upper .schwifty {
+  width: 100px;
+}
+
+footer .upper .logo {
+  width: 200px;
+}
+
+footer .upper .schwifty img, footer .upper .logo img {
+  width: 100%;
+}
+
+footer .links {
+  color: white;
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+footer .links .show-name {
+  font-family: AdultSwim;
+}
+
+footer .right {
+  display: flex;
+}
+
+footer .footer-button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 1rem;
+  margin: 0 10px;
+  position: relative;
+  border:1px solid transparent;
+   -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+}
+
+footer .footer-button svg {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer .lower .left {
+  color:  white;
+}
+
+.footer-button::before, .footer-button::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom:0px;
+  z-index: 1;
+  width: 0%;
+  height:1px;
+  background: white;
+  display: block;
+  -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+}
+
+.footer-button::after {
+  right: 0px;
+  left: auto;
+  top:0px;
+}
+
+.footer-button:hover::before, .footer-button:hover::after {
+  width:100%;
+}
+
+.footer-button:hover{
+  border-left:1px solid white;
+  border-right:1px solid white;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    display: none;
+  }
+
+  #benefits {
+    position: relative;
+  }
+
+  #benefits .plumbus {
+    position:  absolute;
+    max-width: 100%;
+    z-index: 1;
+    opacity: .15;
+    top: 100px;
+  }
+
+  #warn .table-container {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero img {
+    width: 100%;
+  }
+
+  #about {
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  #about .left, #about .right {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  #about .left p {
+    font-size: 18px;
+  }
+  #about .right ul {
+    width: 90%;
+    padding-left: 10px;
+  }
+
+  #benefits .copy {
+    padding: 2rem 0;
+    width: 90%;
+    position: relative;
+    height: 600px;
+  }
+
+  #benefits ul {
+    position: absolute;
+    font-size: 18px;
+    z-index: 2;
+  }
+
+  #buy {
+    padding-top: 3rem;
+  }
+
+  #buy h4 {
+    width: 95%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  #buy #form {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+
+  #buy #form #submit {
+    margin-top: 5px;
+  }
+
+  #warn .header {
+    width: 99%;
+  }
+  #warn .header p {
+    font-size: 18px;
+  }
+
+  th {
+    font-size: 18px;
+    padding: .5rem;
+  }
+
+  td {
+    font-size: 16px;
+    padding: .5rem;
+  }
+
+  footer .lower, footer .upper {
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer .links {
+    margin: 1rem 0;
+  }
+
+  .mobile-nav {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background-color: white;
+  }
+
+  .mobile-menu {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .mobile-menu .btn, .mobile-menu .btn::before, .mobile-menu .btn::after {
+    position: absolute;
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: black;
+    border-radius: 2px;
+  }
+
+  .mobile-menu .btn  {
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform .22s cubic-bezier(.55,.055,.675,.19);;
+  }
+
+  .mobile-menu .btn::before {
+    top: -8px;
+    transition: top .1s ease-in .25s, opacity .1s ease-in;
+  }
+
+  .mobile-menu .btn::after {
+    bottom: -8px;
+    transition: bottom .1s ease-in .25s, transform .22s cubic-bezier(.55,.055,.675,.19);
+  }
+
+  .mobile-nav .nav-links {
+    padding: 1rem 0;
+    display: flex;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    transition: opacity .25s ease;
+  }
+
+  .mobile-nav .nav-links .nav-link {
+    border-bottom: 1px solid #ccc;
+    line-height: 26px;
+    margin: .75rem 1rem;
+  }
+
+  .mobile-nav.expanded .mobile-menu .btn {
+    transition-delay: .12s;
+    transition-timing-function: cubic-bezier(.215,.61,.355,1);
+    transform: rotate(225deg);
+  }
+  .mobile-nav.expanded .mobile-menu .btn::before {
+    top: 0;
+    transition: top .1s ease-out,opacity .1s ease-out .12s;
+    opacity: 0;
+  }
+  .mobile-nav.expanded .mobile-menu .btn::after {
+    bottom: 0;
+    transition: bottom .1s ease-out,transform .22s cubic-bezier(.215,.61,.355,1) .12s;
+    transform: rotate(-90deg);
+  }
+
+  .mobile-nav.expanded .nav-links {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+}
